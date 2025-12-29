@@ -1,6 +1,7 @@
 def add(a, b):
     return a + b
 
+#restar dos numeros
 def subtract(a, b):
     return a - b
 
