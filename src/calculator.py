@@ -1,4 +1,5 @@
 #otro comentario
+#funciones básicas aritméticas
 
 #sumar dos numeros
 def add(a, b):
