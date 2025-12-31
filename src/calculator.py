@@ -1,3 +1,5 @@
+#funciones básicas aritméticas
+
 def add(a, b):
     return a + b
 
