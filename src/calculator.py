@@ -8,6 +8,5 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
 def sq(n):
-    if n == 4:
-        return 16
-    else: return 25
+   return n * n
+
