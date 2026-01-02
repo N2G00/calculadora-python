@@ -10,7 +10,7 @@ def test_subtract():
     assert subtract(5, 3) == 2
 #prueba division
 def test_divide():
-    assert divide(10, 2) == 5
+    assert divide(10, 2) == 9
 
 #prueba excepcion
 def test_divide_by_zero():
