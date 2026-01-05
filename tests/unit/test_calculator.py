@@ -1,5 +1,5 @@
 import pytest
-from src.calculator import add, subtract, divide, sq
+from src.calculator import add, subtract, divide, sq, multiply
 
 #prueba suma
 def test_add():
@@ -20,3 +20,6 @@ def test_divide_by_zero():
 #prueba que falla deliberadamente. 4 elevado a 4. (4**4)
 def test_sq_4():
     assert sq(4) == 16
+
+def test_multiply():
+    assert multiply(2, 3) == 6
