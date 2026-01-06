@@ -1,5 +1,5 @@
 import pytest
-from src.calculator import add, subtract, divide, sq, multiply
+from src.calculator import add, subtract, divide, sq, multiply, potencia
 
 #prueba suma
 def test_add():
@@ -23,3 +23,7 @@ def test_sq_4():
 
 def test_multiply():
     assert multiply(2, 3) == 6
+
+def test_potencia():
+    resultado = potencia(2,3)
+    assert resultado ==8

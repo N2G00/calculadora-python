@@ -13,3 +13,6 @@ def sq(n):
 
 def multiply(a, b):
     return a * b
+
+def potencia(a,b):
+    return a**b
